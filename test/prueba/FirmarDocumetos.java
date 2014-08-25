@@ -14,10 +14,10 @@ public class FirmarDocumetos
 {
     public static void main(String cor[]) throws Exception
     {
-        String ruta_certificado = "c:\\llaves\\certificadoprivadodylma.p12";
+        String ruta_certificado = "c:\\llaves\\certificado_privado_entidad.p12";
         String ruta_archivo = "c:\\llaves\\texto.txt";
         String ruta_archivo_firmado = "c:\\llaves\\texto.txt.sig";
-        String clave_certificado = "dgsgif";
+        String clave_certificado = "clavesecreta";
         
         // Leyendo el archivo generado
         P12CertificateSeg certificateP12 = P12CertificateSeg.load(ruta_certificado,clave_certificado);

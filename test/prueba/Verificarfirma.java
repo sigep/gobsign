@@ -15,7 +15,7 @@ public class Verificarfirma
 {
     public static void main(String cor[]) throws Exception
     {
-        String ruta_certificado = "c:\\llaves\\certificadopublicoministerio.cer";
+        String ruta_certificado = "c:\\llaves\\certificado_publico_entidad.cer";
         String ruta_archivo = "c:\\llaves\\texto.txt";
         String ruta_archivo_firmado = "c:\\llaves\\texto.txt.sig";
         String clave_certificado = "dgsgif";
