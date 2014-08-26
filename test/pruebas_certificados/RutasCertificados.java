@@ -11,6 +11,6 @@ public interface RutasCertificados
     public static final String RUTA_CERTIFICADO_PRIVADO_RAIZ = "c:\\llaves\\certificado_privado_raiz.p12";
     public static final String RUTA_CERTIFICADO_PRIVADO_ENTIDAD = "c:\\llaves\\certificado_privado_entidad.p12";
     public static final String CLAVE_DE_CERTIFICADO_PRIVADO = "clavesecreta";
-    public static final String DOCUMENTO_PARA_FIRMAR = "c:\\llaves\\documento_prueba\\texto.txt";
-    public static final String DOCUMENTO_FIRMADO = "c:\\llaves\\documento_prueba\\texto.txt.sig";
+    public static final String DOCUMENTO_PARA_FIRMAR = "c:\\llaves\\mensajefirmado.txt";
+    public static final String DOCUMENTO_FIRMADO = "c:\\llaves\\mensajefirmado.txt.sig";
 }
