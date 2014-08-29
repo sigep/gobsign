@@ -5,8 +5,8 @@ import java.io.FileOutputStream;
 import java.security.Provider;
 import java.security.Security;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
-import org.sigep.core.signs.certificado.util.PdfSigner;
-import org.sigep.core.signs.certificado.x509.cer.P12CertificateSeg;
+import org.mefp.core.signs.certificado.util.PdfSigner;
+import org.mefp.core.signs.certificado.x509.cer.P12CertificateSeg;
 
 /**
  * Clase de prueba para verificar y firmar documentos PDF a partir de un certificado .p12

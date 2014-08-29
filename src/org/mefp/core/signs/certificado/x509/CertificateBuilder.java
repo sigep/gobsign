@@ -1,4 +1,4 @@
-package org.sigep.core.signs.certificado.x509;
+package org.mefp.core.signs.certificado.x509;
 
 import java.io.IOException;
 import java.math.BigInteger;
@@ -25,13 +25,13 @@ import org.bouncycastle.cert.jcajce.JcaX509v3CertificateBuilder;
 import org.bouncycastle.operator.ContentSigner;
 import org.bouncycastle.operator.OperatorCreationException;
 import org.bouncycastle.operator.jcajce.JcaContentSignerBuilder;
-import org.sigep.core.signs.certificado.x509.data.Issuer;
-import org.sigep.core.signs.certificado.x509.data.Subject;
+import org.mefp.core.signs.certificado.x509.data.Issuer;
+import org.mefp.core.signs.certificado.x509.data.Subject;
 import org.bouncycastle.asn1.x509.KeyUsage;
 import org.bouncycastle.asn1.x509.X509Extensions;
-import org.sigep.core.signs.certificado.util.Properties;
-import org.sigep.core.signs.certificado.x509.cer.P12CertificateSeg;
-import org.sigep.core.signs.certificado.x509.cer.X509CertificateSeg;
+import org.mefp.core.signs.certificado.util.Properties;
+import org.mefp.core.signs.certificado.x509.cer.P12CertificateSeg;
+import org.mefp.core.signs.certificado.x509.cer.X509CertificateSeg;
 
 /**
  * La mayoría del código presente se toma de la siguiente página

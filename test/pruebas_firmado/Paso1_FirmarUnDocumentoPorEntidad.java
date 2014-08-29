@@ -2,9 +2,9 @@ package pruebas_firmado;
 
 import java.io.File;
 import java.io.FileInputStream;
-import org.sigep.core.signs.certificado.util.DataStream;
-import org.sigep.core.signs.certificado.x509.cer.P12CertificateSeg;
-import org.sigep.core.signs.certificado.x509.cer.X509CertificateSeg;
+import org.mefp.core.signs.certificado.util.DataStream;
+import org.mefp.core.signs.certificado.x509.cer.P12CertificateSeg;
+import org.mefp.core.signs.certificado.x509.cer.X509CertificateSeg;
 import pruebas_certificados.RutasCertificados;
 import static pruebas_certificados.RutasCertificados.DOCUMENTO_FIRMADO;
 import static pruebas_certificados.RutasCertificados.DOCUMENTO_PARA_FIRMAR;

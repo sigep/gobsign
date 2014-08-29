@@ -3,11 +3,11 @@ package prueba;
 import java.io.File;
 import java.security.KeyPair;
 import org.bouncycastle.asn1.x509.KeyUsage;
-import org.sigep.core.signs.certificado.util.DataStream;
-import org.sigep.core.signs.certificado.x509.CertificateBuilder;
-import org.sigep.core.signs.certificado.x509.cer.X509CertificateSeg;
-import org.sigep.core.signs.certificado.x509.data.Issuer;
-import org.sigep.core.signs.certificado.x509.data.Subject;
+import org.mefp.core.signs.certificado.util.DataStream;
+import org.mefp.core.signs.certificado.x509.CertificateBuilder;
+import org.mefp.core.signs.certificado.x509.cer.X509CertificateSeg;
+import org.mefp.core.signs.certificado.x509.data.Issuer;
+import org.mefp.core.signs.certificado.x509.data.Subject;
 
 /**
  * Clase de prueba para generar certificados PEM

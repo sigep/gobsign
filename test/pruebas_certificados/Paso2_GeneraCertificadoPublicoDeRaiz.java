@@ -1,8 +1,8 @@
 package pruebas_certificados;
 
 import java.io.FileInputStream;
-import org.sigep.core.signs.certificado.x509.cer.P12CertificateSeg;
-import org.sigep.core.signs.certificado.x509.cer.X509CertificateSeg;
+import org.mefp.core.signs.certificado.x509.cer.P12CertificateSeg;
+import org.mefp.core.signs.certificado.x509.cer.X509CertificateSeg;
 
 /**
  *

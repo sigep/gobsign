@@ -1,4 +1,4 @@
-package org.sigep.core.signs.certificado.x509.cer;
+package org.mefp.core.signs.certificado.x509.cer;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -18,8 +18,8 @@ import java.security.UnrecoverableKeyException;
 import java.security.cert.Certificate;
 import java.security.cert.CertificateEncodingException;
 import java.security.cert.CertificateException;
-import org.sigep.core.signs.certificado.util.Properties;
-import org.sigep.core.signs.certificado.util.DataStream;
+import org.mefp.core.signs.certificado.util.Properties;
+import org.mefp.core.signs.certificado.util.DataStream;
 
 /**
  * @author rcoarite

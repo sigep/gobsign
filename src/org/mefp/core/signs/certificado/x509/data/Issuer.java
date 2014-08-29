@@ -1,4 +1,4 @@
-package org.sigep.core.signs.certificado.x509.data;
+package org.mefp.core.signs.certificado.x509.data;
 
 /**
  * Clase que representa al Emisor del certificado

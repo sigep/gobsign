@@ -1,4 +1,4 @@
-package org.sigep.core.signs.certificado.util;
+package org.mefp.core.signs.certificado.util;
 
 /**
  * Interfaz de constantes para la creación de firmas

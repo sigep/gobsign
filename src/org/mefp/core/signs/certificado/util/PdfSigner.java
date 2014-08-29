@@ -1,4 +1,4 @@
-package org.sigep.core.signs.certificado.util;
+package org.mefp.core.signs.certificado.util;
 
 import com.lowagie.text.DocumentException;
 import com.lowagie.text.pdf.AcroFields;
@@ -15,7 +15,7 @@ import java.security.cert.Certificate;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.List;
-import org.sigep.core.signs.certificado.x509.cer.P12CertificateSeg;
+import org.mefp.core.signs.certificado.x509.cer.P12CertificateSeg;
 
 /**
  * Clase utilitaria para realizar el firmado embebido de un documento PDF y

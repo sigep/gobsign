@@ -1,8 +1,8 @@
 package prueba;
 
 import java.io.File;
-import org.sigep.core.signs.certificado.util.DataStream;
-import org.sigep.core.signs.certificado.x509.cer.X509CertificateSeg;
+import org.mefp.core.signs.certificado.util.DataStream;
+import org.mefp.core.signs.certificado.x509.cer.X509CertificateSeg;
 
 /**
  *

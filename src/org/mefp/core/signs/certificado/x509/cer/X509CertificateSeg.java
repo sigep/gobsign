@@ -1,4 +1,4 @@
-package org.sigep.core.signs.certificado.x509.cer;
+package org.mefp.core.signs.certificado.x509.cer;
 
 import java.io.ByteArrayInputStream;
 import java.io.FileNotFoundException;
@@ -20,10 +20,10 @@ import java.security.cert.CertificateException;
 import java.security.cert.CertificateFactory;
 import java.security.cert.X509Certificate;
 import org.bouncycastle.util.encoders.Base64;
-import org.sigep.core.signs.certificado.util.Properties;
-import org.sigep.core.signs.certificado.util.DataStream;
-import org.sigep.core.signs.certificado.x509.data.Issuer;
-import org.sigep.core.signs.certificado.x509.data.Subject;
+import org.mefp.core.signs.certificado.util.Properties;
+import org.mefp.core.signs.certificado.util.DataStream;
+import org.mefp.core.signs.certificado.x509.data.Issuer;
+import org.mefp.core.signs.certificado.x509.data.Subject;
 
 /**
  * @author rcoarite
